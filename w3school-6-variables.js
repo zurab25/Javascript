@@ -9,3 +9,14 @@ function Arithmetics(){
 
     document.getElementById("aritmetics").innerHTML = x;
 }
+
+
+function toCelsius(f){
+    return (5/9) * (f-32);
+
+    document.getElementById("demo").innerHTML = toCelsius(77);
+}
+
+function MultiPly(p1,p2){
+    return p1*p2;
+}
