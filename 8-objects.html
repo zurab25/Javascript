@@ -7,5 +7,22 @@
         <h2>JavaScript Objects</h2>
         <button type="button" onclick="myObjects()">click me</button>
         <p id="demo"></p>
+
+
+        <script>
+            var person = {
+                firstName: "John",
+                lastName: "Jonson",
+                id: 5566,
+                
+                fullName : function(){
+                    return this.firstName + " " + this.lastName;
+                }
+            };
+
+            document.write(person.fullName());
+        </script>
+
+    
     </body>
     </html>
